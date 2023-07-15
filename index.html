@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach Bro</title>
+    <link rel="stylesheet" href="output.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="fixed top-0 left-0 right-0 z-50 text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+                <a href="#AboutMe" class="mr-5 hover:text-white">
+                    About
+                </a>
+                <a href="#Upcoming" class="mr-5 hover:text-white">
+                    Upcoming
+                </a>
+                <div class="dropdown inline-block relative">
+                    <a href="#Projects" class="mr-5 hover:text-white dropdown-link">
+                        Projects
+                    </a>
+                    <ul class="dropdown-menu absolute text-gray-400 pt-1 bg-gray-900">
+                        <li><a class="rounded-t bg-gray-900 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                                href="#InteractiveApplications">Interactive Applications</a></li>
+                        <li><a class="bg-gray-900 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                                href="#Remixes">Recreations and Remixes</a></li>
+                    </ul>
+                </div>
+                <a href="#Footer" class="mr-5 hover:text-white">
+                    Socials
+                </a>
+            </nav>
+
+            <a href="#heroPart"
+                class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+                <img class="w-10 h-10 object-cover rounded-full" src="images/InkedZach Bro-1_no_subtext_cropped.jpg"
+                    alt="ZachBro's Logo">
+                <span class="ml-3 text-xl xl:block lg:hidden">ZachBro</span>
+            </a>
+            <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+                <a href="#Connect"
+                    class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                    Connect
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!--Hero2-->
+    <section>
+        <div class="bg-black text-white py-20" id="heroPart">
+            <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+                <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+                    <h1 class="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose">ZachBro</h1>
+                    <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">A Jack of all Trades, & Master
+                        of Done
+                    </h2>
+                    <p class="text-sm md:text-lg text-gray-50 mb-4"
+                        style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+                        Ready to transform your vision into reality?
+                        Whether you're a startup, small business, individual, artist, or fellow developer, let's join
+                        forces and create something extraordinary.
+                    </p>
+
+                    <a href="#Connect"
+                        class="bg-transparent hover:bg-yellow-500 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+                        Reach Out</a>
+                </div>
+
+                <!--Picture-->
+                <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3 justify-center">
+                    <div class="h-48 flex flex-wrap content-center justify-center">
+                        <div>
+                            <img class="inline-block mt-24 md:mt-0 p-8 md:p-0 rounded-full image-border"
+                                src="images/42o7exE2Siep33LAqBnQ_6GZtL7Dh7wBh6KOe.jfif" width="400" height="600">
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+    <!--Second Section-->
+    <section id="AboutMe">
+        <div class="flex flex-col items-center -mt-20">
+            <img src="images/profile pic lobby.jpg" class="w-40 border-4 border-white rounded-full">
+            <div class="flex items-center space-x-2 mt-2">
+                <p class="text-2xl">Zachary Brown</p>
+                <span class="bg-blue-500 rounded-full p-1" title="Verified">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-100 h-2.5 w-2.5" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </span>
+            </div>
+            <p class="text-gray-700">Software Engineer | Multidisciplinary Creator | Innovator | Good &lt;Li&gt;stener
+            </p>
+            <p class="text-sm text-gray-500">Philadephia, USA</p>
+        </div>
+
+        <!-- STATS/bullets -->
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-20">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">When mediocrity knocks on
+                        the
+                        door, choose to answer with a resounding "NO!"</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">With today's fast-paced digital landscape,
+                        it's
+                        essential to have a strong online presence that showcases your skills and expertise. As a
+                        software
+                        engineer driven by the desire to create, I am dedicated to delivering exceptional work that not
+                        only
+                        fulfills requirements but also exceeds expectations. Drawing from my diverse background in
+                        non-profit work, activism, and the arts, I embrace the value of delivering excellence in all
+                        endeavors, whether it involves contributing to my community or crafting software.</p>
+                </div>
+                <div class="flex flex-wrap -m-4 text-center">
+                    <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="text-indigo-500 w-12 h-12 mb-3 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
+                            </svg>
+                            <h2 class="title-font font-medium text-3xl text-gray-900">MERN (Fullstack)</h2>
+                            <p class="leading-relaxed">MongoDB • Express.js • React.js • Node.js• SQL </p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="text-indigo-500 w-12 h-12 mb-3 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18M5.25 6h.008v.008H5.25V6zM7.5 6h.008v.008H7.5V6zm2.25 0h.008v.008H9.75V6z" />
+                            </svg>
+                            <h2 class="title-font font-medium text-3xl text-gray-900">Frontend</h2>
+                            <p class="leading-relaxed">HTML, CSS, Javascript, Tailwind, Bootstrap, Responsive Design</p>
+                        </div>
+                    </div>
+
+
+                    <div class="p-4 md:w-1/4 sm:w-1/2 w-full flex justify-center" id="adobe_box">
+                        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg flex flex-col items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="text-indigo-500 w-12 h-12 mb-3 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+                            </svg>
+                            <h2 class="title-font font-medium text-3xl text-gray-900">Adobe Suite</h2>
+                            <p class="leading-relaxed">Photoshop • Indesign • Premiere • Lightroom • Illustrator</p>
+                        </div>
+                    </div>
+
+
+                    <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg" id="adobe_box">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="text-indigo-500 w-12 h-12 mb-3 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z" />
+                            </svg>
+                            <h2 class="title-font font-medium text-3xl text-gray-900">Misc</h2>
+                            <p class="leading-relaxed">Ableton Live • Fusion 360 • Unreal Engine • Linux • SketchUp •
+                                Github
+                                • Breakdancing</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <!-- Future Carousel 
+    <div>
+        <div class="relative w-[600px] mx-auto">
+            <div class="slide relative">
+                <img class="w-full h-[300px] object-cover"
+                    src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-1.jpeg">
+                <div class="absolute bottom-0 w-full px-5 py-3 bg-black/40 text-center text-white">Flower One Caption
+                </div>
+            </div>
+
+            <div class="slide relative">
+                <img class="w-full h-[300px] object-cover"
+                    src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-2.jpeg">
+                <div class="absolute bottom-0 w-full px-5 py-3 bg-black/40 text-center text-white">Flower Two Caption
+                </div>
+            </div>
+
+            <div class="slide relative">
+                <img class="w-full h-[300px] object-cover"
+                    src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-3.jpeg">
+                <div class="absolute bottom-0 w-full px-5 py-3 bg-black/40 text-center text-white">Flower Three Caption
+                </div>
+            </div>
+-->
+    <!-- The previous button -->
+    <!--  <a class="absolute left-0 top-1/2 p-4 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer"
+                onclick="moveSlide(-1)">❮</a>
+            -->
+    <!-- The next button -->
+    <!--  <a class="absolute right-0 top-1/2 p-4 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer"
+                onclick="moveSlide(1)">❯</a>
+
+        </div>
+        <br>
+        -->
+    <!-- The dots -->
+    <!--<div class="flex justify-center items-center space-x-5">
+            <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(1)"></div>
+            <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(2)"></div>
+            <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(3)"></div>
+        </div>
+        </br>
+    </div>
+-->
+
+    <!-- Featured -->
+    <section class="text-gray-600 body-font" id="Upcoming">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PatchPal</h1>
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Coming Soon</h3>
+                <p class="mb-8 leading-relaxed">PatchPal, a groundbreaking full-stack app dedicated to connecting
+                    individuals with garden and farm spaces in urban environments. Our mission is to transform the
+                    concrete jungle into lush green havens, making it effortless for people to add a touch of nature to
+                    their surroundings. Join us in beautifying the city, fostering environmental literacy, and
+                    discovering available yard spaces and lots to cultivate your own urban oasis.</p>
+                <div class="flex justify-center">
+                    <a href="#Connect">
+                    <button
+                        class="inline-flex text-white bg-brown border-0 py-2 px-6 focus:outline-none hover:bg-yellow-500 rounded text-lg">Request
+                        Beta Access</button>
+
+                    <!--Invest Button
+                    <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Invest</button>
+                    -->
+                </a>
+
+
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="images/patchpal 2.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Future Article Section-->
+    <!--
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/3">
+                    <div
+                        class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Raclette Blueberry
+                            Nextious Level</h1>
+                        <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                            microdosing tousled waistcoat.</p>
+                        <a class="text-indigo-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div
+                            class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                            <span
+                                class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/3">
+                    <div
+                        class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave
+                            Thundercats</h1>
+                        <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                            microdosing tousled waistcoat.</p>
+                        <a class="text-indigo-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div
+                            class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                            <span
+                                class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/3" id="textboxthing1">
+                    <div
+                        class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                        <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat
+                            Godard</h1>
+                        <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                            microdosing tousled waistcoat.</p>
+                        <a class="text-indigo-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div
+                            class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                            <span
+                                class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Gallery C -->
+    <section class="text-gray-600 body-font" id="Projects">
+        <div class="container px-5 py-24 mx-auto" id="InteractiveApplications">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Interactive Applications
+                    </h1>
+                    <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Discover sleek interfaces, dynamic
+                    functionalities, and innovative creations that demonstrate the power of JavaScript in crafting
+                    immersive web solutions.</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <a href="https://64a50e8bd2e449629729f504--admirable-puppy-8f433d.netlify.app" target="_blank">
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="bg-gray-100 p-6 rounded-lg">
+
+                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/tada (2).jpeg"
+                                alt="TaDa!">
+
+                            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">The To-Do list
+                                for you!</h3>
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">TaDa! </h2>
+                            <p class="leading-relaxed text-base">Your ultimate todo list companion with seamless CRUD
+                                capabilities, empowering you to conquer tasks effortlessly and stay organized like a
+                                pro.</p>
+                        </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://effervescent-torrone-e86f2b.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/quote.jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Anime Quote Generator
+                        </h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Quotaku</h2>
+                        <p class="leading-relaxed text-base"> Immerse yourself in an infinite wellspring of randomly
+                            generated anime quotes, accompanied by stunning character and anime visuals sourced through
+                            APIs, igniting endless inspiration.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://aesthetic-sprinkles-b12e18.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/wutang.jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Name Generator</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Wu-Tang Name Generator</h2>
+                        <p class="leading-relaxed text-base">Wu-Tang Name Generator: Transform into a lyrical assassin
+                            with a Wu-Tang-infused rap alias that'll have your rivals trembling in their sneakers.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://frolicking-crumble-0613d6.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/nasa.jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Weather Checker</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">NASA Weather Wizard</h2>
+                        <p class="leading-relaxed text-base">Unleash the meteorological secrets of NASA facilities at
+                            your fingertips, accessing real-time temperature and weather data to plan your space odyssey
+                            with intergalactic accuracy and finesse.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-wrap -m-4" id="Remixes">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://lively-quokka-4d838e.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/tictac.jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Tic-Tac-Toe</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Xs & Os</h2>
+                        <p class="leading-relaxed text-base">Experience the classic game of Tic Tac Toe in a dynamic
+                            web-based version designed for two players. Challenge your friends or family to intense
+                            matches of Xs and Os, and prove your strategic prowess in this timeless battle of wits.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://6486bf8f2fa55b1ffd25b854--inspiring-nougat-d0e174.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="images/ip checker (2).jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">IP and Location Data
+                            Checkern</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">IP Data Checker</h2>
+                        <p class="leading-relaxed text-base">Unlock the mysteries of your IP address and its location
+                            with this interactive website. Whether you're curious about your own IP or want to verify
+                            your
+                            VPN connection, this site provides instant access to the information you need, all at your
+                            fingertips.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://64a86b046a675c0433c4cd21--fascinating-pudding-41c749.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/MTGtheGame.jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">MTG Card Matching
+                            Game</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Matching: The Game</h2>
+                        <p class="leading-relaxed text-base">Test your memory and strategic skills as you uncover
+                            magical matches in this immersive journey through the world of Magic: The Gathering. With
+                            cards randomly
+                            generated from the complete Magic: The Gathering (MTG) card library, every match offers a
+                            unique and enchanting
+                            experience.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://64a71f59636ca17868edad61--wondrous-biscochitos-84fe83.netlify.app/" target="_blank">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="images/palindromecheck.jpeg">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Palindrome Checker
+                        </h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Pali Pall</h2>
+                        <p class="leading-relaxed text-base">Discover the power of palindromes with this handy checker
+                            that determines whether a word or phrase reads the same forwards and backwards. Unleash your
+                            linguistic curiosity and explore the fascinating world of symmetrical words and phrases.</p>
+                    </div>
+                </a>
+            </div>
+    </section>
+
+    <!-- Gallery D -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col">
+                <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                    <div class="w-24 h-full bg-indigo-500"></div>
+                </div>
+                <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Recreations and
+                        Remixes</h1>
+                    <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">This section showcases captivating
+                        remixes and recreations of pre-existing websites, meticulously crafted using only HTML and CSS.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <a href="https://amazing-tiramisu-f757ed.netlify.app/" target="_blank">
+                            <img alt="content" class="lg:h-80 md:h-36 w-full object-cover object-top"
+                                src="images/nyt.jpeg">
+                        </a>
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">NYT Homepage Recreation</h2>
+                    <p class="text-base leading-relaxed mt-2">Immerse yourself in a recreated NYT (The New York Times)
+                        homepage that captures the comprehensive coverage of global news, politics, culture, and more,
+                        meticulously crafted using HTML and CSS to replicate its iconic design and deliver an authentic
+                        user experience.</p>
+                    <a href="https://amazing-tiramisu-f757ed.netlify.app/" target="_blank"
+                        class="text-indigo-500 inline-flex items-center mt-3">View
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <a href="https://gilded-kitten-61acb2.netlify.app/" target="_blank">
+                            <img alt="content" class="lg:h-80 md:h-36 w-full object-cover object-top"
+                                src="images/boston.jpeg">
+                        </a>
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Boston.com Desktop Homepage Recreation
+                    </h2>
+                    <p class="text-base leading-relaxed mt-2">Delve into a recreated rendition of Boston.com's homepage,
+                        thoughtfully crafted with HTML and CSS, capturing the dynamic essence of the city's digital hub.
+                    </p>
+                    <a href="https://gilded-kitten-61acb2.netlify.app/" target="_blank"
+                        class="text-indigo-500 inline-flex items-center mt-3">View
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <a href="https://chic-sherbet-2abc48.netlify.app/" target="_blank">
+                            <img class="lg:h-80 md:h-36 w-full object-cover object-top" src="images/bbcCapture.PNG">
+                        </a>
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">BBC HomePage Recreation</h2>
+                    <p class="text-base leading-relaxed mt-2">Step into a world of news and storytelling as we recreate
+                        the iconic BBC (British Broadcasting Corporation) homepage, combining the power of HTML and CSS
+                        to capture the essence of its editorial excellence and visual appeal.</p>
+                    <a href="https://chic-sherbet-2abc48.netlify.app/" target="_blank"
+                        class="text-indigo-500 inline-flex items-center mt-3">View
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery E -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col">
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <a href="https://chimerical-gecko-de7d3e.netlify.app/" target="_blank">
+                            <img alt="content" class="lg:h-80 md:h-36 w-full object-cover object-top"
+                                src="images/foodtrek.jpeg">
+                        </a>
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The FoodTrekkers</h2>
+                    <p class="text-base leading-relaxed mt-2">Indulge your senses with The FoodTrekkers, a traditional
+                        food blog meticulously crafted with HTML and CSS.</p>
+                    <a href="https://chimerical-gecko-de7d3e.netlify.app/" target="_blank"
+                        class="text-indigo-500 inline-flex items-center mt-3">View
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <a href="https://cool-bienenstitch-58739f.netlify.app/" target="_blank">
+                            <img alt="content" class="lg:h-80 md:h-36 w-full object-cover object-top"
+                                src="images/level.jpeg">
+                        </a>
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Level Ground MMA Gym</h2>
+                    <p class="text-base leading-relaxed mt-2">Embark on a delectable journey with The FoodTrekkers, a
+                        traditional travel food blog expertly crafted with HTML and CSS. Discover a tapestry of culinary
+                        delights from around the world, as we explore diverse cuisines, hidden gems, and immersive
+                        travel experiences that will satisfy your wanderlust and taste buds.</p>
+                    <a href="https://cool-bienenstitch-58739f.netlify.app/" target="_blank"
+                        class="text-indigo-500 inline-flex items-center mt-3">View
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <a href="https://scintillating-moonbeam-b805c8.netlify.app/" target="_blank">
+                            <img class="lg:h-80 md:h-36 w-full object-cover object-top"
+                                src="images/Huff_post_build_pic (1).png">
+                        </a>
+                    </div>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Huffington Post Desktop Homepage</h2>
+                    <p class="text-base leading-relaxed mt-2">Journey through a faithfully reconstructed desktop
+                        homepage of The Huffington Post, crafted with precision using HTML and CSS. Experience the
+                        curated news, features, and engaging content that define the publication's online presence.</p>
+
+                    <a href="https://scintillating-moonbeam-b805c8.netlify.app/" target="_blank"
+                        class="text-indigo-500 inline-flex items-center mt-3">View
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="text-gray-400 bg-gray-900 body-font relative" id="Connect">
+        <div class="absolute inset-0 bg-gray-900">
+            <iframe title="map" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0"
+                scrolling="no"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391114.94082332164!2d-75.37535481092426!3d40.01770593870852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1685679189284!5m2!1sen!2sus%22%20width=%22400%22%20height=%22300%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"
+                style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>
+        </div>
+        <!--Contact Form-->
+        <div class="container px-5 py-24 mx-auto flex">
+            <form action="https://formsubmit.co/4afb18201b119fcdbd8f92e65c056325" target="_blank" method="POST"
+                class="lg:w-1/3 md:w-1/2 bg-gray-900 shadow-md rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
+                <h2 class="text-white text-lg mb-1 font-medium title-font">Say Hello</h2>
+                <p class="leading-relaxed mb-5">Got a bug that's bugging you? Drop me a line and let's squash it!
+                    I'm always open to feedback and inquiries so feel free to reach out to me directly with
+                    any questions, requests, or just to say hello.</p>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button type="submit"
+                    class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Send</button>
+                <p class="text-xs text-gray-400 text-opacity-90 mt-3">Or connect with me on social media using the links
+                    below.</p>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-gray-600 body-font" id="Footer">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img class="w-10 h-10 object-cover rounded-full" src="images/InkedZach Bro-1_no_subtext_cropped.jpg">
+                <span class="ml-3 text-xl">ZachBro</span>
+            </a>
+
+
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                Zach Bro —
+                <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+                    target="_blank">Zachary Brown</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500" href="https://twitter.com/YoZachBro" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" style="color: #1da1f2"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-6 text-gray-500" href="https://www.linkedin.com/in/zachbro/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" style="color: #0077b5"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-6 text-gray-500" href="https://github.com/ItsZachBro" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" style="color: #333"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a class="ml-6 text-gray-500" href="https://www.youtube.com/@itszachbro" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" style="color: #ff0000"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+
+    <!--Add script for carousel gallery
+    <script src="script.js"></script>
+    -->
+</body>
+
+</html>
